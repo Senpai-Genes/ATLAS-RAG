@@ -1,0 +1,32 @@
+# Python
+colbert-venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local data and databases
+data/
+*.db
+*.sqlite3
+
+# Models and indexes
+.ragatouille/
+.rag*
+*.pt
+*.pth
+*.safetensors
+
+# Temporary files
+*.log
+tmp/
+temp/
