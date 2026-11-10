@@ -1,0 +1,32 @@
+# FastAPI Backend
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+
+# PDF Processing
+pymupdf
+
+# Machine Learning
+numpy
+scipy
+scikit-learn
+torch
+sentence-transformers
+transformers
+
+# RAPTOR
+umap-learn
+hdbscan
+
+# ColBERT Retrieval
+ragatouille
+faiss-cpu
+
+# LLM Integration
+ollama
+
+# Utilities
+tqdm
+requests
+python-dotenv
