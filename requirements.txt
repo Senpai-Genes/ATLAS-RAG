@@ -1,4 +1,5 @@
-# FastAPI Backend
+
+# Backend
 fastapi
 uvicorn[standard]
 python-multipart
@@ -22,6 +23,12 @@ hdbscan
 # ColBERT Retrieval
 ragatouille
 faiss-cpu
+
+# LangChain Compatibility
+langchain
+langchain-classic
+langchain-community
+langchain-core
 
 # LLM Integration
 ollama
