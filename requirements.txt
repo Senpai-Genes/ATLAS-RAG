@@ -24,11 +24,10 @@ hdbscan
 ragatouille
 faiss-cpu
 
-# LangChain Compatibility
-langchain
-langchain-classic
-langchain-community
-langchain-core
+# LangChain Compatibility (RAGatouille)
+langchain==0.3.27
+langchain-core>=0.3.72,<1.0
+langchain-community>=0.3,<0.4
 
 # LLM Integration
 ollama
@@ -37,3 +36,4 @@ ollama
 tqdm
 requests
 python-dotenv
+
